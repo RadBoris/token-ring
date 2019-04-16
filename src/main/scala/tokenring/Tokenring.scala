@@ -1,6 +1,7 @@
 package tokenring;
 
 import akka.actor.Actor
+import akka.actor.ActorRef
 import akka.actor.ActorSystem
 import akka.actor.ActorSelection
 import akka.actor.Props
@@ -29,6 +30,7 @@ class TokenRing extends Actor {
       this.incrementCounterTwo
       Thread.sleep(2000)
       println(" Actor " + actor + " received " + MESSAGETWO.toString() + " number of times : " + counterTwo)
+      println("Actor Ref"  + ActorRef)
       val next = context.actorSelection(nextActorPath)
       next ! MESSAGETWO
     case Start(nextPath, number) =>
@@ -41,13 +43,13 @@ class TokenRing extends Actor {
 object Server extends App {
   val system = ActorSystem("TokenRing")
 
-  val first = system.actorOf(Props[TokenRing], name = "first")
+  val first: ActorRef = system.actorOf(Props[TokenRing], name = "first")
   println(first.path)
 
-  val second = system.actorOf(Props[TokenRing], name = "second")
+  val second: ActorRef = system.actorOf(Props[TokenRing], name = "second")
   println(second.path)
 
-  val third = system.actorOf(Props[TokenRing], name = "third")
+  val third: ActorRef = system.actorOf(Props[TokenRing], name = "third")
   println(third.path)
 
   first ! Start(second.path.toString, 1)
