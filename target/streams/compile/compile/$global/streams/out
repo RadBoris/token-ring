@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/root/token-ring/src/main/scala/tokenring/Tokenring.scala:25:58: ')' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      println(" Actor " + actor + " received " MESSAGEONE.toString() + " number of times : " + counterOne)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/token-ring/src/main/scala/tokenring/Tokenring.scala:25:106: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      println(" Actor " + actor + " received " MESSAGEONE.toString() + " number of times : " + counterOne)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

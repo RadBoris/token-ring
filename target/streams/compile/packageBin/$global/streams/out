@@ -1,0 +1,27 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /root/token-ring/target/scala-2.12/token-ring_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/TokenRing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/TokenRing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/MESSAGETWO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/MESSAGETWO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/TokenRing$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/TokenRing$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/MESSAGETWO$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/MESSAGETWO$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/Start.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/Start.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/MESSAGEONE.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/MESSAGEONE.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/Start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/Start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/Server$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/Server$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/MESSAGEONE$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/MESSAGEONE$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenring/Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /root/token-ring/target/scala-2.12/classes/tokenring/Server.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
